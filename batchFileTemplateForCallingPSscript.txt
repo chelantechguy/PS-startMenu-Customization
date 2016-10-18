@@ -1,0 +1,12 @@
+# replace all (text) with appropriate information.
+# template Batch File for calling PS1 files and runing them on a computer. 
+# Creating a shortcut to the batch file and marking it to run as administrator works
+# for running a script with admin privliges.
+
+TITLE (Window Title)
+ECHO (Mesage to note what the script is doing)
+Set netPath=(add \\network or C:\local folder path to the script here)
+PowerShell.exe -NonInteractive -ExecutionPolicy Bypass -File %netPath%(scriptFileName).ps1
+Echo (script has completed mesage)
+Set netPath=
+TIMEOUT 30

@@ -12,3 +12,5 @@ Power Shell Script to automate export of the start menu layout and copying the x
 # I may at some point try to make it so that the script accepts a username before running the copy process or grabs a list of all the folders in users and copyies to all of them.
 
 # There is a Branch for working on copying the .XML file to one or more users folders named Copy-To-One-Or-More-Users-Folder
+# Added a couple of scripts to use when the start menu stops working or modern apps stop showing.
+#
